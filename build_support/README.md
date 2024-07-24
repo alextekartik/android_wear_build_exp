@@ -1,2 +1,8 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Build a web app
+
+Needed if created on windows
+
+```shell
+git update-index --chmod +x gradlew
+chmod +x gradlew
+```
