@@ -8,9 +8,8 @@ Future<void> main(List<String> arguments) async {
 Shell wearAppShell({String? path}) {
   path ??= join('..', 'wearos');
   return Shell(
-          environment: ShellEnvironment()
-            ..aliases['gradle'] = join('.', 'gradlew'))
-      .cd(path);
+    environment: ShellEnvironment()..aliases['gradle'] = join('.', 'gradlew'),
+  ).cd(path);
 }
 
 // Build
