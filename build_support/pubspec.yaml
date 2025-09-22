@@ -15,7 +15,6 @@ dependencies:
   tekartik_android_utils:
     git:
       url: https://github.com/tekartik/android_utils.dart
-      ref: dart3a
 
 dev_dependencies:
   lints: ">=5.0.0"
